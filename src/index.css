@@ -1,4 +1,14 @@
-.submit-form {
-    width: 654px;
-    height: auto;
-}
+
+/* .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+} */
+
+Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
