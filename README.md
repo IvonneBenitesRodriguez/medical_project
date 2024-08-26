@@ -6,14 +6,14 @@
 
 #### 📗 Table of Contents
 
-- [ medical\_project\_frontend]
       - [📗 Table of Contents](#-table-of-contents)
+    - [Medical Project Frontend ](#medical-project-frontend-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [📕 Key Features ](#-key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [💪🏻 Setup](#-setup)
-  - [👩🏽‍💻 Authors ](#-authors-)
+  - [👩🏽‍💻 Author ](#-author-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
