@@ -4,9 +4,9 @@
 </div>
 
 
-# 📗 Table of Contents
-- [� medical\_project\_frontend](#-medical_project_frontend)
-- [📗 Table of Contents](#-table-of-contents)
+#### 📗 Table of Contents
+- [🚑 medical\_project\_frontend](#-medical_project_frontend)
+      - [📗 Table of Contents](#-table-of-contents)
     - [Medical Project Frontend ](#medical-project-frontend-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
