@@ -6,7 +6,7 @@
 
 #### 📗 Table of Contents
 
-- [ medical\_project\_frontend](#-medical_project_frontend)
+- [ medical\_project\_frontend]
       - [📗 Table of Contents](#-table-of-contents)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
