@@ -40,24 +40,21 @@ function FormRegistry() {
 
     if (validateForm()) {
       try {
-        const response = await fetch(
-          'https://medical-project-backend-snyv.onrender.com',
-          {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
+        const response = await fetch('/api/v1/users', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            user: {
+              name,
+              email,
+              city,
+              profession_ids: [professionId],
+              specialty_ids: [specialtyId],
             },
-            body: JSON.stringify({
-              user: {
-                name,
-                email,
-                city,
-                profession_ids: [professionId],
-                specialty_ids: [specialtyId],
-              },
-            }),
-          }
-        );
+          }),
+        });
 
         await response.json();
 
