@@ -59,10 +59,12 @@ function FormRegistry() {
           }
         );
 
-        await response.json();
+        const result = await response.json();
 
         if (response.ok) {
           alert('Registration successful!');
+        } else {
+          alert('Error in Registration: ' + result.error || 'Unknown error');
         }
       } catch (error) {
         console.error('Error:', error);
