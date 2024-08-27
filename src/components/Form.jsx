@@ -41,7 +41,7 @@ function FormRegistry() {
     if (validateForm()) {
       try {
         const response = await fetch(
-          'https://medical-project-backend-snyv.onrender.com',
+          'https://medical-project-backend-snyv.onrender.com/api/v1/users',
           {
             method: 'POST',
             headers: {
