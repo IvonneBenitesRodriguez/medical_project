@@ -40,21 +40,24 @@ function FormRegistry() {
 
     if (validateForm()) {
       try {
-        const response = await fetch('http://localhost:3000/api/v1/users', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            user: {
-              name,
-              email,
-              city,
-              profession_ids: [professionId],
-              specialty_ids: [specialtyId],
+        const response = await fetch(
+          'https://medical-project-backend-6a115656b6c3.herokuapp.com/api/v1/users',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
             },
-          }),
-        });
+            body: JSON.stringify({
+              user: {
+                name,
+                email,
+                city,
+                profession_ids: [professionId],
+                specialty_ids: [specialtyId],
+              },
+            }),
+          }
+        );
 
         const result = await response.json();
 
