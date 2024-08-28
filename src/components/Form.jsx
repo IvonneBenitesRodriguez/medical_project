@@ -41,7 +41,7 @@ function FormRegistry() {
     if (validateForm()) {
       try {
         const response = await fetch(
-          'https://medical-project-backend-6a115656b6c3.herokuapp.com/api/v1/users',
+          `${process.env.REACT_APP_API_BASE_URL}/users`,
           {
             method: 'POST',
             headers: {
@@ -64,7 +64,10 @@ function FormRegistry() {
         if (response.ok) {
           alert('Registration successful!');
         } else {
-          alert('Error in Registration: ' + result.error || 'Unknown error');
+          alert(
+            'Error in Registration: ' +
+              (result.errors || result.error || 'Unknown error')
+          );
         }
       } catch (error) {
         console.error('Error:', error);
